@@ -4,6 +4,7 @@
     "main": "index.js",
     "license": "Auto",
     "scripts": {
+      "postinstall": "npm run build",
       "start": "node index.js"
     },
     "dependencies": {
